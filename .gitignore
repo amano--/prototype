@@ -1,0 +1,22 @@
+.DS_Store
+.DS_Store?
+._*
+
+# Node / JS
+**/node_modules/
+**/.next/
+**/dist/
+**/build/
+**/.turbo/
+**/.cache/
+**/.parcel-cache/
+**/.vite/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / Editors
+Thumbs.db
