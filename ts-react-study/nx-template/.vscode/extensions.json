@@ -1,0 +1,29 @@
+{
+  "recommendations": [
+    "VisualStudioExptTeam.vscodeintellicode",
+    "vscode-icons-team.vscode-icons",
+    "mhutchie.git-graph",
+    "eamodio.gitlens",
+    "aaron-bond.better-comments",
+    "mechatroner.rainbow-csv",
+    "mikestead.dotenv",
+    "oderwat.indent-rainbow",
+    "vincaslt.highlight-matching-tag",
+    "christian-kohler.path-intellisense",
+    "shardulm94.trailing-spaces",
+    "mosapride.zenkaku",
+    "zenclabs.reactpreview",
+    "pmneo.tsimporter",
+    "mike-co.import-sorter",
+    "stringham.move-ts",
+    "ionutvmi.path-autocomplete",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "Orta.vscode-jest",
+    "firsttris.vscode-jest-runner",
+    "shd101wyy.markdown-preview-enhanced",
+    "bierner.markdown-mermaid",
+    "hediet.vscode-drawio",
+    "nrwl.angular-console"
+  ]
+}

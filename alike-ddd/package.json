@@ -1,0 +1,40 @@
+{
+  "name": "alike-ca",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": {
+    "packages": [
+    "domains/*",
+    "libs/*",
+    "configs/*",
+
+    "clients/*",
+    "servers/*"  ],
+    "nohoist": [
+      "@emotion/core/types",
+      "**/@emotion/core/types",
+      "**/@types/theme-ui",
+      "**/@types/theme-ui/**",
+      "**/@types/theme-ui__components"
+    ]
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx}\"",
+    "graphs": "npx turbo run build --graph=docs/dependency-graph/images/build-graph.svg ; npx turbo run dev --graph=docs/dependency-graph/images/dev-graph.svg"
+
+  },
+  "devDependencies": {
+    "turbo": "latest"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=14.0.0"
+  },
+  "packageManager": "npm@8.5.0",
+  "volta": {
+    "node": "16.14.2"
+  }
+}
